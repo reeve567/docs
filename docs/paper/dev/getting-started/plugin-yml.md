@@ -143,12 +143,12 @@ Each permission node can have children. When set to `true` it will inherit the p
 This is a list of commands that your plugin uses. This is useful for plugins that use commands to provide features.
 ```yaml
 commands:
-  - command:
-        description: "This is a command"
-        usage: "/command <arg>"
-        aliases: [cmd, command]
-        permission: permission.node
-        permission-message: "You do not have permission to use this command"
+  command:
+    description: "This is a command"
+    usage: "/command <arg>"
+    aliases: [cmd, command]
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
 ```
 
 - The __description__ is the description of the command. This gives a brief description of what the command does.
